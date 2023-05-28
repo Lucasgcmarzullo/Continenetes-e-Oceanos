@@ -19,16 +19,25 @@ section{
 h2{
     text-align: left;
 }
+div{
+    text-align: center;
+}
+
+div.imagens{
+    background-color: black;
+    margin: 0 auto 0 auto;
+    box-sizing: border-box;
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+}
 
 img{
-    width: 350px;
-    height: 200px;
+    width: 100%;
+    height: 250px;
 }
-
-img#globo{
-    width: 200px;
-}
-
 footer{
     text-align: center;
+    font-size: 30px;
+    margin-top: 80px;
 }
